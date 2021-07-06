@@ -1,0 +1,25 @@
+---
+galaxy_info:
+  author: Roy Ginting
+  role_name: atlantis
+  description: Ansible role to set up Atlantis, Caddy, and Oauth2 Proxy
+  company: personal
+
+  license: MIT
+
+  min_ansible_version: 2.9
+
+  platforms:
+    - name: Ubuntu
+      versions:
+        - bionic
+    - name: Debian
+      versions:
+        - stretch
+
+  galaxy_tags:
+    - atlantis
+    - caddy
+    - oauth2proxy
+
+dependencies: []
